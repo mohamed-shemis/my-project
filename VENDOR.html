@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>بوابة التوريدات | مجموعة العمار</title>
+
+    <!-- موقعك الجديد CSS -->
+    <link rel="stylesheet" href="../assets/css/swiper.css" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <link rel="stylesheet" href="../assets/css/responsive.css" />
+
+    <!-- ستايل صفحة Vendor الأساسية -->
+    <link rel="stylesheet" href="assetscss/ELAMAR CSS V.css" />
+
+    <link rel="shortcut icon" href="../assets/img/logo.png">
+</head>
+
+
+<body>
+
+<!-- ========================= Top Header ========================= -->
+<div class="top-header">
+    <div class="container">
+        <div class="header-left">
+
+            <span>
+                <a href="tel:19783">
+                    <img src="../assets/img/phone.svg" alt="Phone">
+                    <span class="hide-sm">19783</span>
+                </a>
+            </span>
+
+            <span>
+                <a href="#">
+                    <img src="../assets/img/mail.svg" alt="Mail">
+                    <span class="hide-sm">info@elamargroup.com</span>
+                </a>
+            </span>
+
+            <span>
+                <a href="VENDOR.html">
+                    <img src="../assets/img/globe.svg" alt="Language">
+                    <span class="hide-sm">EN</span>
+                </a>
+            </span>
+
+            <span>
+                <a href="https://www.google.com/maps/search/?api=1&query=120+El+Thawra+St" target="_blank">
+                    <img src="../assets/img/map.svg" alt="Map">
+                    <span class="hide-sm">١٢٠ شارع الثورة – مصر الجديدة</span>
+                </a>
+            </span>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- ========================= Main Header ========================= -->
+<header class="main-header">
+    <div class="container">
+
+        <div class="logo">
+            <a href="index.html">
+                <img src="../assets/img/logo.png" alt="العمار جروب">
+            </a>
+        </div>
+
+        <div class="group-right">
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="about.html">من نحن</a></li>
+                    <li><a href="project.html">المشروعات</a></li>
+                    <li><a href="faqs.html">الأسئلة المتكررة</a></li>
+                    <li><a href="contact.html">اتصل بنا</a></li>
+                    <li><a href="customer.html">تسجيل دخول</a></li>
+                    <li class="active"><a href="VENDOR.html">مقاولين وموردين</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+            <img src="../assets/img/menu.svg" alt="Menu">
+        </button>
+
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu-overlay" id="mobileMenuOverlay">
+        <button class="close-btn" id="closeMobileMenuBtn">
+            <img src="../assets/img/close.svg" alt="Close">
+        </button>
+
+        <nav class="mobile-nav">
+            <ul>
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="about.html">من نحن</a></li>
+                <li><a href="project.html">المشروعات</a></li>
+                <li><a href="faqs.html">الأسئلة المتكررة</a></li>
+                <li><a href="contact.html">اتصل بنا</a></li>
+                <li><a href="customer.html">تسجيل دخول</a></li>
+                <li class="active"><a href="VENDOR.html">مقاولين وموردين</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+<!-- ========================= HERO VIDEO ========================= -->
+<header class="hero-video">
+  <video loop autoplay muted src="assetsvid/video shors.mp4" class="hero_hub_video"></video>
+  <div class="hero_inner"> 
+    <img src="assetsimgs/footer-logo.png" alt="vendor-logo" class="hero_logo"/>
+    <p class="hero_description">بوابة التوريدات والمناقصات الإلكترونية</p>
+  </div>
+</header>
+
+
+<!-- ========================= Vendor Section ========================= -->
+<section>
+  <div class="container">
+    <div class="row align-items-start justify-content-center">
+
+      <!-- Register -->
+      <div class="thumbnail" id="register">
+        <div>
+          <h2>غير مُسجل؟</h2>
+          <p class="mt-md-5 mb-md-5">
+            <a id="registerLink" href="#" class="btn-link text-uppercase">سجّل الآن</a>
+          </p>
+          <p class="text-uppercase">نموذج تسجيل الموردين<br>بسهولة تامة</p>
+        </div>
+      </div>
+
+      <!-- Login -->
+      <div class="thumbnail pl-md-3 pr-md-3">
+        <div>
+          <form id="loginForm" autocomplete="off">
+            <p id="loginError" class="text-error" style="display:none;">خطأ في اسم المستخدم أو كلمة المرور</p>
+
+            <input id="username" name="login" maxlength="250" placeholder="البريد الإلكتروني" type="email">
+            <input id="password" name="password" maxlength="250" placeholder="كلمة المرور" type="password">
+
+            <input name="submit" type="submit" id="Enter" value="تسجيل الدخول">
+            
+            <a href="#" id="resetPwd" class="btn-link text-uppercase">نسيت كلمة المرور؟</a>
+          </form>
+        </div>
+      </div>
+
+      <!-- Assistance -->
+      <div class="thumbnail">
+        <h2>تحتاج مساعدة؟</h2>
+        <ul>
+          <li class="icon-phone">19783</li>
+          <img src="assetsimgs/logo.png" alt="" class="footer-brand"/> 
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ========================= FOOTER ========================= -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+
+            <div class="footer-section company-section">
+                <img src="../assets/img/footer-logo.png" alt="logo" />
+                <p>مجموعة العمار للتطوير العقاري منذ 1986 — 14 منتجعًا و56 برجًا وأكثر من 11,000 وحدة.</p>
+            </div>
+
+            <div class="office">
+                <h3 class="office-title">مكتب الإسكندرية</h3>
+                243 طريق الحرية — سبورتنج  
+                <br>الخط الساخن: 19783
+            </div>
+
+            <div class="office">
+                <h3 class="office-title">المكتب الرئيسي</h3>
+                120 شارع الثورة — مصر الجديدة  
+                <br>3 ممر بهلر — وسط البلد  
+                <br>الخط الساخن: 19783
+            </div>
+
+            <div class="footer-section contact-section">
+                <h3 class="contact-title">الخط الساخن</h3>
+                <p class="contact-number">19783</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>جميع الحقوق محفوظة © مجموعة العمار 2025</p>
+        <img src="../assets/img/logo.png" alt="elamar" />
+        <p>..</p>
+    </div>
+</footer>
+
+
+<!-- ========================= SCRIPTS ========================= -->
+<script src="../assets/js/script.js"></script>
+
+<!-- Firebase SDK -->
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
+
+<!-- EmailJS SDK -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+
+<script>
+/* Firebase Config */
+const firebaseConfig = {
+    apiKey: "AIzaSyA9jK_2syBoKdFwzLhqFt9cFi-WwhdcXUY",
+    authDomain: "elamar-347d6.firebaseapp.com",
+    projectId: "elamar-347d6",
+    storageBucket: "elamar-347d6.appspot.com",
+    messagingSenderId: "200568993056",
+    appId: "1:200568993056:web:84041242935305b8521345"
+};
+firebase.initializeApp(firebaseConfig);
+const auth = firebase.auth();
+
+/* EmailJS */
+emailjs.init("edwXztZZkfN9npJ0I");
+const ADMIN_EMAIL = "mohamedshemis348@gmail.com";
+
+function sendNotification(data) {
+    emailjs.send("service_g9ee16w", "template_wocbdep", {
+        to_email: ADMIN_EMAIL,
+        ...data
+    });
+}
+
+/* Login */
+document.getElementById("loginForm").addEventListener("submit", (e) => {
+    e.preventDefault();
+    auth.signInWithEmailAndPassword(username.value, password.value)
+        .then(() => {
+            alert("تم تسجيل الدخول بنجاح");
+            location.href = "dashboard.html";
+        })
+        .catch(err => {
+            loginError.style.display = "block";
+            loginError.textContent = err.message;
+        });
+});
+
+/* Register */
+document.getElementById("registerLink").addEventListener("click", () => {
+    const email = prompt("أدخل بريدك للتسجيل:");
+    const pass = prompt("أدخل كلمة مرور:");
+    if (email && pass) {
+        auth.createUserWithEmailAndPassword(email, pass)
+            .then(() => alert("تم التسجيل بنجاح"))
+            .catch(err => alert(err.message));
+    }
+});
+
+/* Reset Password */
+document.getElementById("resetPwd").addEventListener("click", () => {
+    const email = prompt("أدخل بريدك لاستعادة كلمة المرور:");
+    if (email) {
+        auth.sendPasswordResetEmail(email)
+            .then(() => alert("تم إرسال رابط الاستعادة"))
+            .catch(err => alert(err.message));
+    }
+});
+</script>
+
+</body>
+</html>

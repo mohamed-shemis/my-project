@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../assets/css/swiper.css" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <link rel="stylesheet" href="../assets/css/responsive.css" />
+
+    <title>المشروعات | مجموعة العمار</title>
+    <meta name="csrf-token" content="76iC32FEWSEvyQQoUZL4x4GlsO5gYqaKXzhUriuN" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/img/logo.png" />
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                "gtm.start": new Date().getTime(),
+                event: "gtm.js",
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != "dataLayer" ? "&l=" + l : "";
+            j.async = true;
+            j.src =
+                "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, "script", "dataLayer", "GTM-N89NKMPD");
+    </script>
+    <!-- End Google Tag Manager -->
+</head>
+
+<body dir="rtl" lang="ar">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-N89NKMPD"
+            height="0"
+            width="0"
+            style="display: none; visibility: hidden"
+        ></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- نفس الـ style الصغير بتاع الأيقونة -->
+    <style>
+        span a {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        span img {
+            width: 24px;
+            height: 24px;
+        }
+        @media screen and (min-width: 1024px) {
+            .hide-lg {
+                display: none !important;
+            }
+        }
+        .floating-contact-icon {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 9999;
+            width: 50px;
+            height: 50px;
+            background-color: #25d366;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 8px rgba(16, 2, 2, 0.924);
+            transition: transform 0.3s ease;
+        }
+        .floating-contact-icon:hover {
+            transform: scale(1.1);
+        }
+        .floating-contact-icon img {
+            width: 28px;
+            height: 28px;
+            object-fit: contain;
+        }
+        @media screen and (min-width: 1024px),
+               screen and (max-width: 768px) {
+            .floating-contact-icon {
+                display: none;
+            }
+        }
+    </style>
+
+    <!-- Top Header -->
+    <div class="top-header">
+        <div class="container">
+            <div class="header-left">
+                <span>
+                    <a href="tel:19783" style="color: #fff; text-decoration: none">
+                        <img src="../assets/img/phone.svg" alt="Phone" />
+                        <span class="hide-sm">19783</span>
+                    </a>
+                </span>
+
+                <span>
+                    <a
+                        href="/cdn-cgi/l/email-protection#5e3331363f333b3a2d363b33372d6d6a661e39333f3732"
+                        style="color: #fff; text-decoration: none"
+                    >
+                        <img src="../assets/img/mail.svg" alt="Mail" />
+                        <span class="hide-sm">
+                            <span
+                                class="__cf_email__"
+                                data-cfemail="5e3331363f333b3a2d363b33372d6d6a661e39333f3732"
+                                >[email&#160;protected]</span
+                            >
+                        </span>
+                    </a>
+                </span>
+
+                <span>
+                    <a href="project-en.html">
+                        <img src="../assets/img/globe.svg" alt="Language" />
+                        <span class="hide-sm">EN</span>
+                    </a>
+                </span>
+
+                <span>
+                    <a
+                        href="https://www.google.com/maps/search/?api=1&query=%D9%A1%D9%A2%D9%A0++%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D8%ث%D9%88%D8%B1%D8%A9+%D8%ج+%D9%م%D8%B5%D8%B1+%D8%A7%D9%ل%D8%ج%D8%AF%D9%8A%D8%AF%D8%A9+-++++%D9%83%D9%85%D9%85%D8%B1+%D8%A8%D9%87%D9%84%D8%B1+-+%D8%B4+%D9%ق%D8%B5%D8%B1+%D8%A7%D9%ل%D9%ن%D9%8A%D9%ل.+%D8%A7%D9%ل%D9%ق%D8%A7%D9%ه%D8%B1%D8%A9%D8%8C+%D9%م%D8%B5%D8%B1"
+                        target="_blank"
+                        style="color: #fff; text-decoration: none"
+                    >
+                        <img src="../assets/img/map.svg" alt="Map" />
+                        <span class="hide-sm"
+                            >١٢٠ شارع الثورة ٬ مصر الجديدة - ٣ممر بهلر - ش قصر
+                            النيل. القاهرة، مصر</span
+                        >
+                    </a>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Header -->
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="../assets/img/logo.png" alt="العمار جروب" />
+                </a>
+            </div>
+
+            <div class="group-right">
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="index.html">الرئيسية</a></li>
+                        <li><a href="about.html">من نحن</a></li>
+                        <li><a class="active" href="project.html">المشروعات</a></li>
+                        <li><a href="faqs.html">أسئلة متكررة</a></li>
+                        <li><a href="contact.html">اتصل بنا</a></li>
+                        <li><a href="customer.html">تسجيل دخول</a></li>
+                        <li><a href="VENDOR.html">مقاولين وموردين</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="social-links">
+                <a href="https://www.facebook.com/Elamargroupeg" target="_blank">
+                    <img src="../assets/img/facebook.svg" alt="" />
+                </a>
+                <a href="https://www.instagram.com/elamargroupeg/" target="_blank">
+                    <img src="../assets/img/instagram.svg" alt="" />
+                </a>
+                <a href="https://wa.me/201111111111" target="_blank">
+                    <img src="../assets/img/whatsapp.svg" alt="" />
+                </a>
+            </div>
+
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <img src="../assets/img/menu.svg" alt="Menu" />
+            </button>
+        </div>
+
+        <!-- Mobile Menu Overlay -->
+        <div class="mobile-menu-overlay" id="mobileMenuOverlay">
+            <button class="close-btn" id="closeMobileMenuBtn">
+                <img src="../assets/img/close.svg" alt="Close" />
+            </button>
+            <div class="mobile-menu-content">
+                <nav class="mobile-nav">
+                    <ul>
+                        <li><a href="index.html">الرئيسية</a></li>
+                        <li><a href="about.html">من نحن</a></li>
+                        <li><a class="active" href="project.html">المشروعات</a></li>
+                        <li><a href="faqs.html">أسئلة متكررة</a></li>
+                        <li><a href="contact.html">اتصل بنا</a></li>
+                        <li><a href="customer.html">تسجيل دخول</a></li>
+                        <li><a href="VENDOR.html">مقاولين وموردين</a></li>
+                    </ul>
+                </nav>
+
+                <div class="mobile-social-links">
+                    <a href="https://www.facebook.com/Elamargroupeg" target="_blank">
+                        <img
+                            src="../assets/img/facebook.svg"
+                            alt="https://www.facebook.com/Elamargroupeg"
+                        />
+                    </a>
+                    <a href="https://www.instagram.com/elamargroupeg/" target="_blank">
+                        <img
+                            src="../assets/img/instagram.svg"
+                            alt="https://www.instagram.com/elamargroupeg/"
+                        />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- هنا المحتوى الخاص بكل صفحة -->
+    <main>
+        <section class="page-header">
+            <img src="../assets/img/project6.jpg" alt="مشروعاتنا" />
+            <h1>مشروعاتنا</h1>
+            <div class="links">
+                <a href="index.html">الرئيسية</a>
+                <img src="../assets/img/arrow-right.svg" alt=">">
+                <span>المشروعات</span>
+            </div>
+        </section>
+
+        <section class="projects">
+            <div class="container">
+                <!-- مشروع 1 -->
+                <div class="project-item">
+                    <div class="img">
+                        <img src="../assets/img/project4.jpg" alt="شورز" />
+                        <div class="head">
+                            <span>
+                                <img src="../assets/img/map.svg" alt="">
+                                الساحل الشمالي
+                            </span>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <h1>شورز - الساحل الشمالي</h1>
+                        <span>
+                            <img src="../assets/img/arrow-right.svg" alt="">
+                            تسويق وبيع
+                        </span>
+                    </div>
+                </div>
+
+                <!-- مشروع 2 -->
+                <div class="project-item">
+                    <div class="img">
+                        <img src="../assets/img/Bella Mera Resort.jpg" alt="بيلا ميرا" />
+                        <div class="head">
+                            <span>
+                                <img src="../assets/img/map.svg" alt="">
+                                الكيلو 74 الساحل الشمالي
+                            </span>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <h1>منتجع بيلا ميرا</h1>
+                        <span>
+                            <img src="../assets/img/arrow-right.svg" alt="">
+                            تسليم صيف 2025
+                        </span>
+                    </div>
+                </div>
+
+                <!-- مشروع 3 -->
+                <div class="project-item">
+                    <div class="img">
+                        <img src="../assets/img/krair lagon.jpg" alt="كرير لاجون" />
+                        <div class="head">
+                            <span>
+                                <img src="../assets/img/map.svg" alt="">
+                                الكيلو 39 الساحل الشمالي
+                            </span>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <h1>كرير لاجون</h1>
+                        <span>
+                            <img src="../assets/img/arrow-right.svg" alt="">
+                            تم التسليم 2014
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Cloudflare email decode + Swiper CDN -->
+    <script
+        data-cfasync="false"
+        src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Local JS -->
+    <script src="../assets/js/swiper-bundle.js"></script>
+    <script src="../assets/js/gallary.js"></script>
+    <script src="../assets/js/script.js"></script>
+
+    <!-- Inline JS: mobile menu -->
+    <script>
+        (function () {
+            const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+            const mobileMenuOverlay = document.getElementById('mobileMenuOverlay');
+            const body = document.body;
+
+            if (!mobileMenuBtn || !mobileMenuOverlay) return;
+
+            mobileMenuBtn.addEventListener('click', function () {
+                mobileMenuBtn.classList.toggle('active');
+                mobileMenuOverlay.classList.toggle('active');
+                body.classList.toggle('menu-open');
+            });
+
+            mobileMenuOverlay.addEventListener('click', function (e) {
+                if (e.target === mobileMenuOverlay) {
+                    mobileMenuBtn.classList.remove('active');
+                    mobileMenuOverlay.classList.remove('active');
+                    body.classList.remove('menu-open');
+                }
+            });
+
+            const mobileNavLinks = document.querySelectorAll('.mobile-nav a');
+            mobileNavLinks.forEach(link => {
+                link.addEventListener('click', function () {
+                    mobileMenuBtn.classList.remove('active');
+                    mobileMenuOverlay.classList.remove('active');
+                    body.classList.remove('menu-open');
+                });
+            });
+
+            window.addEventListener('resize', function () {
+                if (window.innerWidth > 1280) {
+                    mobileMenuBtn.classList.remove('active');
+                    mobileMenuOverlay.classList.remove('active');
+                    body.classList.remove('menu-open');
+                }
+            });
+        })();
+    </script>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section company-section">
+                    <div class="company-logo">
+                        <img src="../assets/img/footer-logo.png" alt="logo" />
+                    </div>
+                    <p class="company-description">
+                        مجموعة العمار هي من الشركات الرائدة في السوق العقاري المصري . تأسست
+                        عام ١٩٨٦، ونجحت في تطوير ١٤ منتجعًا ساحليً و٥٦ برج وعماره في جميع
+                        أنحاء مصر. مجموعة العمار سلمت أكثر من ١١،٠٠٠ وحدة سكنية منذ
+                        تأسيسها
+                    </p>
+                </div>
+
+                <div class="office">
+                    <a
+                        class="office-title"
+                        href="https://www.google.com/maps/search/?q=%D9%A2%D9%A4%D9%A3+%D8%B7%D8%B1%D9%8A%D9%82+%D8%A7%D9%84%D8%ح%D8%B1%D9%8A%D8%A9%D8%8C+%D8%B3%D8%A8%D9%88%D8%B1%D8%ت%D9%86%D8%ج+%D8%8C+%D8%A7%D9%ل%D8%A5%D8%B3%D9%ك%D9%86%D8%AF%D8%B1%D9%8A%D8%A9"
+                        style="text-decoration: none"
+                        target="_blank"
+                    >
+                        <h3 class="office-title">مكتب الاسكندرية</h3>
+                    </a>
+                    مقر الإسكندرية : ٢٤٣ طريق الحرية ، سبورتنج ، الإسكندرية<br />
+                    الخط الساخن : ١٩٧٨٣
+                </div>
+
+                <div class="office">
+                    <a
+                        class="office-title"
+                        href="https://www.google.com/maps/search/?q=%D9%A1%D9%A2%D9%A0++%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%ل%D8%ث%D9%88%D8%B1%D8%A9+%D8%ج+%D9%م%D8%B5%D8%B1+%D8%A7%D9%ل%D8%ج%D8%AF%D9%8A%D8%AF%D8%A9+-++++%D9%ك%D9%85%D9%85%D8%B1+%D8%A8%D9%87%D9%84%D8%B1+-+%D8%B4+%D9%ق%D8%B5%D8%B1+%D8%A7%D9%ل%D9%ن%D9%8A%D9%ل.+%D8%A7%D9%ل%D9%ق%D8%A7%D9%ه%D8%B1%D8%A9%D8%8C+%D9%م%D8%B5%D8%B1"
+                        style="text-decoration: none"
+                        target="_blank"
+                    >
+                        <h3 class="office-title">المكتب الرئيسي</h3>
+                    </a>
+                    مقر مبيعات مصر الجديدة :١٢٠ شارع الثورة ، مصر الجديدة<br />
+                    مقر المبيعات وسط البلد : ٣ ممر بهلر، ش قصر النيل. القاهرة<br />
+                    الخط الساخن : ١٩٧٨٣
+                </div>
+
+                <div class="footer-section contact-section">
+                    <div class="contact-icon">
+                        <img src="../assets/img/customer-icon.png" alt="contact icon" />
+                        <p class="contact-number">19783</p>
+                    </div>
+                    <h3 class="contact-title">الخط الساخن</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>جميع الحقوق محفوظة لمجموعة العمار 2025 - تطوير</p>
+            <img src="../assets/img/logo.png" alt="elamar" />
+            <p>..</p>
+        </div>
+    </footer>
+</body>
+</html>
